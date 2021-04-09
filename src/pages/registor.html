@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中关村在线企业购</title>
+    <link rel="stylesheet" href="../../dist/css/index.min.css">
+    <link rel="stylesheet" href="../../dist/css/registor.min.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="logo"></div>
+    <div class="sec-out">
+        <div class="post-progress">
+            <p class="post-account">
+                1.填写账户信息
+                <span></span>
+            </p>
+            <p class="post-account">
+                2.填写公司信息
+                <span></span>
+            </p>
+        </div>
+        <div class="sec-registor">
+            <form action="" autocomplete="false">
+                <div class="account-info">
+                    <div class="account-title">
+                        <span>注册类型:</span>
+                    </div>
+                    <div class="account-type">
+                        <span class="person">个人注册</span>
+                        <span class="enterprise">企业注册</span>
+                    </div>
+                 </div>
+                 <div class="account-info">
+                    <div class="account-title">
+                        <span>手机号:</span>
+                    </div>
+                    <div class="account-type">
+                        <input type="text" placeholder="请输入手机号:" class="txt">
+                        <span class="error"></span>
+                    </div>
+                 </div>
+                 <div class="account-info">
+                    <div class="account-title">
+                        <span>短信验证:</span>
+                    </div>
+                    <div class="account-type message">
+                        <input type="text" placeholder="请输入短信验证码:" class="message">
+                        <span class="get-message">获取验证码</span>
+                        <span class="time-piece"></span>
+                        <div class="message-content"></div>
+                    </div>
+                 </div>
+                 <div class="account-info">
+                    <div class="account-title">
+                        <span>登录密码:</span>
+                    </div>
+                    <div class="account-type">
+                        <input type="password" placeholder="请输入密码:"  class="txt">
+                        <span class="apssword"></span>
+                    </div>
+                 </div>
+                 <div class="account-info">
+                    <div class="account-title"  class="txt">
+                        <span>确认密码:</span>
+                    </div>
+                    <div class="account-type">
+                        <input type="password" placeholder="请再次输入密码:"  class="txt">
+                        <span class="apssword-aff"></span>
+                    </div>
+                 </div>
+                 <div class="account-sub">提交</div>
+                 <div class="account-login">
+                     <span>
+                         <a href="#" class>已有账号登录</a>
+                     </span>
+                 </div>
+            </form>
+        </div>
+    </div>
+    <!-- 遮罩层 -->
+    <div class="float">
+    </div>
+       <!-- 弹出框 -->
+    <div class="mark">
+           <div class="left-puzzle"></div>
+           <div class="right-puzzle"></div>
+        <!-- 进度条 -->
+        <div class="progress-bar">
+            拖动滑块完成拼图
+            <div class="disc">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="../lib/jquery-1.12.4.min.js"></script>
+    <script>
+        $('#header').load('public.html #head-top');
+        $('#logo').load('public.html #head-bottom');
+        $('#footer').load('public.html #footer');
+    </script>
+    <script src="../js/registor.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+</body>
+</html>

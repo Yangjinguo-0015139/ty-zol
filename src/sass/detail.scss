@@ -1,0 +1,155 @@
+@import 'public';
+.product-list{
+    display:none;
+}
+.commod-out{
+    width:100%;
+    height:38px;
+    background:#fff;
+    .commod-src{
+        width:1200px;
+        margin:0 auto;
+        height:38px;
+        line-height:38px;
+        position:relative;
+        left:30px;
+        top:-400px;
+        color:rgb(153, 153, 153);
+    }
+}
+// section
+.sec-out{
+    width:100%;
+    height:455px;
+    background: rgb(255, 255, 255);
+    position:relative;
+    left:0;
+    top:-380px;
+       .commod-detail{
+            width: 1200px;
+            min-height: 455px;
+            padding-top: 11px;
+            font-size: 0px;
+            padding-bottom: 30px;
+            margin: 0 auto;
+            position:relative;
+            .big-banner{
+                width: 100%;
+                height: 450px;
+                position: relative;
+                 display:flex;
+                 z-index:5;
+                 border:5px solid black;
+                // overflow: hidden;
+                img{
+                    width:450px;
+                    height:440px;
+                    margin:0 5px;
+                    position:absolute;
+                }
+                img[data-spilde-id="none"]:nth-child(2){
+                      left:454px;
+                      top:0;
+                }
+                img[data-spilde-id="none"]:nth-child(3){
+                    left:908px;
+                    top:0;
+                }
+                img[data-spilde-id="none"]:nth-child(4){
+                    left:1362px;
+                    top:0;
+                }
+                img[data-spilde-id="none"]:nth-child(5){
+                    left:1816px;
+                    top:0;
+                }
+                // img[data-spilde]{
+                //     display:none;
+                // }
+            }
+            #spilde{
+                width:439px;
+                height:73px;
+                position:absolute;
+                div[data-banner]{
+                    background:#fff;
+                    img{
+                        width:60px;
+                        height:60px;
+                        margin:0 6px;
+                    } 
+                }
+                div[data-btn]{
+                    color:rgb(221,221,221);
+                }
+            }
+            .product-message{
+                width:728px;
+                z-index:2;
+                margin-top:55px;
+                margin-left:20px;
+               position:absolute;
+               left:458px;
+               top:0;
+                .product-name{
+                    min-height: 26px;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333;
+                    margin: 10px 0;
+                    font-weight: 700;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+                .product-price{
+                    width: 100%;
+                    height: 80px;
+                    line-height: 80px;
+                    background: #f8f8f8;
+                    margin-top: 10px;
+                    font-size:0;
+                    span:first-child{
+                        font-size:12px;
+                        color:#999999;
+                    }
+                    span:nth-child(2){
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #fc002e;
+                        margin-left: 20px;
+                        display: inline-block;
+                    }
+                }
+                .product-num{
+                    width: 100%;
+                    min-height: 32px;
+                    font-size: 0;
+                    margin-top: 8px;
+                }
+                .add-cart{
+                    width: 150px;
+                    height: 44px;
+                    line-height: 44px;
+                    cursor: pointer;
+                    text-align: center;
+                    font-size: 16px;
+                    background: -o-linear-gradient(0deg,#fc4164 0,#fc002d 100%);
+                    background: -webkit-gradient(linear,left top,right top,from(#fc4164),to(#fc002d));
+                    background: -o-linear-gradient(left,#fc4164 0,#fc002d 100%);
+                    background: linear-gradient(
+                90deg
+                ,#fc4164,#fc002d);
+                    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#fc4164,endColorstr=#fc002d);
+                    background-blend-mode: normal,normal;
+                    border-radius: 2px;
+                    margin-left: 79px;
+                    float: left;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+       }
+   }

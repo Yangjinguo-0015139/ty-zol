@@ -1,0 +1,99 @@
+{
+   "popular01":{
+       "sp1":{
+           "src":"../src/img/Cg-4y1VRkeGIANPoAABRSegPfcYAAXcHQDB2zYAAFFh114.jpg",
+           "name":"酷派锋尚Pro（T2-C01/电信4G） 金色+2GB+8GB（Y90/联通4G）",
+           "price":500.00
+       },
+       "sp2":{
+           "src":"../src/img/ChMkJ1nB1viILHyCAAC5pXos3K4AAgmzAHoc7AAALm9457.jpg",
+           "name":"YotaPhone YOTA 3（标准版/全网通） 高亮黑+4GB+128GB（精钢国礼版/全网通）",
+           "price":1438.00
+       },
+       "sp3":{
+           "src":"../src/img/ChMkKl_GBqSIErKNAAGhR24vUncAAGGxAEo4ckAAaFf448.jpg",
+           "name":"联想启天M428-N000(I5-9500/8G/512G/无光驱/集显/W10H/五年保) 21.5英寸显示器",
+           "price":5080.00
+       },
+       "sp4":{
+           "src":"../src/img/ChMkKl_GHE-IVj8kAAFQ1B86oGQAAGHEQO8KKsAAVDs518.jpg",
+           "name":"戴尔DELL Latitude 3410 14英寸酷睿i7全新轻薄商用笔记本",
+           "price":6105.00
+       },
+       "sp5":{
+           "src":"../src/img/ChMkKl_IcGGILMNsAAAz0Fb-ZzAAAGMdgIbXuIAADPo855.jpg",
+           "name":"惠普（HP）NS 1020n 黑白激光打印机",
+           "price":1620.00
+       },
+       "sp6":{
+           "src":"../src/img/ChMkKl_IcpmIaR-CAAA4JGRlIyYAAGMeQDY2ecAADg8741.jpg",
+           "name":"惠普(HP)M405dn专业级激光打印机 液晶显示屏 自动双面打印 有线网络连接",
+           "price":3880.00
+       }
+      
+   },
+   "popular02":{
+        "sp7":{
+            "src":"../src/img/ChMkJlYCCGCIUb49AAM97F6H6wMAAC7SwEYpOAAAz4E178.jpg",
+            "name":"酷派全魔王手机（8298-A01/全网通） 白色+2GB+8GB（8298-M02/移动4G）",
+            "price":379.00
+        },
+        "sp8":{
+            "src":"../src/img/ChMkJ1i2k2OIV7knAAIjkCb2UdUAAaVFgK89d0AAiOo066.jpg",
+            "name":"酷派锋尚MAX（A8-930/全网通） 鸣沙金+3GB+16GB（A8-831/移动4G）",
+            "price":448.00
+        },
+        "sp9":{
+            "src":"../src/img/ChMkKl_lk6mIEvWLAAIpXL0YNVEAAHSVAOJFQsAAil0173.jpg",
+            "name":"清华同方（THTF）超越E500-30838 i5-10400/8GB/1T+256GSSD/win10/21.5英寸",
+            "price":4499.00
+        },
+        "sp10":{
+            "src":"../src/img/ChMkKl_lUIOIdy8vAAIMBoJb3XoAAHRVAP0-E0AAgwe928.jpg",
+            "name":"清华同方（THTF）超越E500-11187 i3-10100/8GB/1T+256GSSD/win10/21.5英寸",
+            "price":3999.00
+        },
+        "sp11":{
+            "src":"../src/img/ChMkKV_IWbaIaG17AADYMi2mXy0AAGMAAOgnz0AANhK041.jpg",
+            "name":"惠普（HP）LaserJet Pro M203dn激光打印机",
+            "price":2140.00
+        },
+        "sp12":{
+            "src":"../src/img/ChMkKl_cbvuIc_7XAAA8sxRVku0AAG8LgBahjUAADzL365.jpg",
+            "name":"惠普（HP）LaserJet Pro M454dn A4彩色打印机双面打印",
+            "price":4999.00
+        }  
+   }, 
+  "popular03":{
+    "sp13":{
+        "src":"../src/img/ChMkJ1ea-aCIASzRAAB-qMZ-AxEAAT9ogOqmyUAAH7A736.jpg",
+        "name":"MANN ZUG 5S Q（高配版/全网通） 沙漠金+4GB+64GB（旗舰版/全网通）",
+        "price":1999.00
+    },
+    "sp14":{
+        "src":"../src/img/Cg-4WlUswbiIe3gPAAFJu-5vAWkAABiDAAtLhEAAUnT400.jpg",
+        "name":"SOYES H1 黑色+32MB+8GB（SOYES H1）",
+        "price":318.00
+    },
+    "sp15":{
+        "src":"../src/img/ChMkKV_HCcOIdcKfAAEvnwtheOsAAGItwPLXfYAAS-3376.jpg",
+        "name":"联想ThinkCentre M920t(i7 9700/8GB/256GB+1TB/DVDRW/2G独显/W10H)",
+        "price":7631.00
+    },
+    "sp16":{
+        "src":"../src/img/ChMkKV_EyaGIbYr1AAFdjZG8kt4AAGDwwP4dOAAAV2l078.jpg",
+        "name":"戴尔DELL OptiPlex 3070SFF 高端商用台式电脑i5-9500 8G 256固态+1T 23.8英寸",
+        "price":5199.00
+    },
+    "sp17":{
+        "src":"../src/img/ChMkKl_Ni2eIDNRYAABHszifqGUAAGXswGfFVEAAEfL994.jpg",
+        "name":"联想（Lenovo）领像L100 黑白激光打印机 办公商用家用A4打印 USB打印",
+        "price":1040.00
+    },
+    "sp18":{
+        "src":"../src/img/ChMkKl_NkLqIfBmxAACwjXv0UXQAAGXuwA1UxAAALCl890.jpg",
+        "name":"联想（Lenovo）LJ2405D 黑白激光打印机 28页/分钟高速A4打印 自动双面 小型办公商用家用",
+        "price":1680.00
+      }
+   }
+}
